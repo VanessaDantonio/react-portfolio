@@ -1,0 +1,17 @@
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgb(96, 25, 47);
+}
+
+input.form-control {
+  height: 44px;
+}
+
+button {
+  background-color: pink;
+  color: white;
+}

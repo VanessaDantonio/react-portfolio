@@ -1,0 +1,85 @@
+.flex-item {
+  width: 300px;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.flex-item h3 {
+  margin-bottom: 20px;
+}
+
+.flex-item ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+.flex-item ul li{
+  line-height: 4;
+}
+
+.card {
+  margin: 50px;
+  padding: 20px;
+  height: 500px;
+}
+
+#html,
+#mssql {
+  block-size: 53px;
+}
+
+#css {
+  block-size: 48px;
+}
+
+#js,
+#javascript {
+  block-size: 45px;
+}
+
+#sass,
+#nodejs {
+  block-size: 33px;
+}
+
+#bootstrap,
+#react-bootstrap,
+#github-pages,
+#typescript {
+  block-size: 38px;
+}
+
+#react,
+#styled-components,
+#nestjs,
+#digital-ocean,
+#dart,
+#postgresql,
+#firebase {
+  block-size: 43px;
+}
+
+#redux,
+#material-ui,
+#flutter {
+  block-size: 35px;
+}
+
+#react-router {
+  block-size: 30px;
+}
+
+#express {
+  block-size: 20px;
+}
+
+#heroku,
+#git {
+  block-size: 50px;
+}
+
+#mongodb {
+  block-size: 28px;
+}

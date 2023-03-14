@@ -1,0 +1,9 @@
+content {
+  padding: 35px;
+  width: 50%;
+  background-color: antiquewhite;
+}
+
+.container-fluid h2 {
+  padding-bottom: 50px;
+}

@@ -4,7 +4,7 @@ import Hero from "../../components/Hero/index";
 
 function Home() {
   return (
-    <div>
+    <div className="container home-page">
       <Hero backgroundImage="../../../assets/images/PXL_20221220_103749892.jpg">
         <h1>Hi, I'm Vanessa D'Antonio</h1>
         <h2>

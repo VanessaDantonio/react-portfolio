@@ -1,0 +1,47 @@
+footer {
+    background-color: rgb(241, 235, 236);
+    padding-top: 80px;
+}
+ footer .col-md-3{
+    position: absolute;
+    right: 0;
+ }
+
+footer h4 {
+    color: rgb(96, 25, 47);
+    margin-bottom: 24px;
+}
+
+footer p,
+footer li, 
+footer li a {
+    color: rgb(96, 25, 47);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-top: 6px;
+}
+
+.footer-top {
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgb(96, 25, 47);
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 600px;
+}
+
+.footer-bottom a {
+    color: rgb(96, 25, 47);
+}
+
+.social-icon {
+    background-color: pink;
+}

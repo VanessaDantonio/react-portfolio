@@ -8,6 +8,7 @@ import About from './pages/About/index';
 import Skills from './pages/Skills/index';
 import Projects from './pages/Projects/index';
 import Contact from './pages/Contact/index';
+import './App.css';
 
 function App() {
   return (
@@ -17,10 +18,10 @@ function App() {
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="about" element={<About />} />
+            <Route path="skills" element={<Skills />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="contact" element={<Contact />} />
           </Routes>
         </Wrapper>
         <Footer />

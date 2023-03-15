@@ -1,8 +1,12 @@
 .hero {
-    height: 600px;
-    width: auto;
-    background-size: cover;
-    background-position: center;
+  padding-top: 600px;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../../assets/images/PXL_20221220_103749892.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
   
   .hero::after {
@@ -23,7 +27,7 @@
   }
   
   .hero h1, .hero h2 {
-    color: white;
+    color: rgb(19, 18, 18);
   }
   
   .hero h1 {
